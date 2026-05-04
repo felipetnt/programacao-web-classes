@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: azure;
+        }
+        
+        div.event {
+            margin-top: 20px;
+            font-size: 18px;
+            width: 80%;;
+            margin: auto;
+            text-align: center;
+            background-color: blue;
+            height: 200px;
+            padding: 20px;
+            outline: 2px solid black;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Eventos JS</h1>
+    <h2>Evento ONCLICK</h2>
+    <p>Clique no botão abaixo:</p>
+    <button onclick="eventoClique()">Clique aqui</button>
+
+    <h2>Evento ONDBLCLICK</h2>
+    <p>Clique duas vezes no botão abaixo:</p>
+    <button ondblclick="eventoDblClique()">Clique duas vezes aqui</button>
+
+    <br><br><br>
+
+    <div class="event" onmouseover="trocaDeCor('purple')" onmouseout="trocaDeCor('blue')" onmousedown="trocaDeCor('lightblue')" onmouseup="trocaDeCor('darkblue')">
+        <h2>Evento ONCLICK</h2>
+    </div>
+
+    <script src="js/script.js">
+    </script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+document.getElementById("texto").innerHTML = "Aprendendo JavaScript com o Mestre";
